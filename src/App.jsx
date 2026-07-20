@@ -1,10 +1,11 @@
 import './App.css'
+import Greetings from "./components/Greetings.jsx";
 
 function App() {
   return (
       <>
         <div className="card">
-          Hello React
+          <Greetings />
         </div>
       </>
   )
